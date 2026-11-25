@@ -1,0 +1,14 @@
+# Copy to local.properties (git-ignored) and fill in. Never commit the real file.
+DB_URL=jdbc:postgresql://localhost:5434/healthdekho
+DB_USERNAME=postgres
+DB_PASSWORD=
+
+# Amazon Bedrock (FR-2 AI recommendations).
+# Leave the keys empty to use your AWS CLI profile / SSO login / IAM role instead.
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+# Only for temporary (STS/SSO) credentials:
+AWS_SESSION_TOKEN=
+# Claude model ID on Bedrock. If your account needs a cross-region inference profile, use that ID instead.
+BEDROCK_MODEL_ID=anthropic.claude-opus-5-5
